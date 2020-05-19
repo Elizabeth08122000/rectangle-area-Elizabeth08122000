@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "12.3\r\n14.4\r\n11.3\r\n15.4",
+      "output": "1.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "947.431\r\n51.5136\r\n311.754\r\n1357.42",
+      "output": "830134.75",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "805.674\r\n23.4877\r\n1275.61\r\n872.997",
+      "output": "399215.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "750.94\r\n4.37945\r\n526.361\r\n772.386\r\n",
+      "output": "172478.12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "174.574\r\n105.471\r\n1435.85\r\n245.245",
+      "output": "176293.58",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
